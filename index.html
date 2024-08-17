@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="text-center d-flex flex-column justify-content-center align-items-center vh-100">
+        <h1 class="mb-4 text-white">Tic Tac Toe</h1>
+        <table class="table-bordered container" style="width: 300px; height: 300px; border-collapse: collapse;">
+            <tr>
+                <td><div class="cell-content" data-cell></div></td>
+                <td><div class="cell-content" data-cell></div></td>
+                <td><div class="cell-content" data-cell></div></td>
+            </tr>
+            <tr>
+                <td><div class="cell-content" data-cell></div></td>
+                <td><div class="cell-content" data-cell></div></td>
+                <td><div class="cell-content" data-cell></div></td>
+            </tr>
+            <tr>
+                <td><div class="cell-content" data-cell></div></td>
+                <td><div class="cell-content" data-cell></div></td>
+                <td><div class="cell-content" data-cell></div></td>
+            </tr>
+        </table>
+        <div id="message" class="mt-4 text-white h4"></div>
+        <button id="restartButton" class="btn-dark-gradient mt-3">Restart Game</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
+
